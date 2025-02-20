@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 16px;
+    background-color: #69247C;
+}
+
+#raca{
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+}
+
+#pesquisar {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#galeria {
+    padding-top: 16px;
+    display: columns;
+    columns: 5;
+}
+
+#galeria img {
+    width: 100%;
+    padding-bottom: 8px;
+    border-radius: 15px;
+}
